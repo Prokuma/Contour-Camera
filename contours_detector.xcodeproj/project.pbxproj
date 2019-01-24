@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49011DAD216347DF004B5088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49011DAC216347DF004B5088 /* AppDelegate.swift */; };
+		49011DAF216347DF004B5088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49011DAE216347DF004B5088 /* ViewController.swift */; };
+		49011DB2216347DF004B5088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49011DB0216347DF004B5088 /* Main.storyboard */; };
+		49011DB4216347E0004B5088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49011DB3216347E0004B5088 /* Assets.xcassets */; };
+		49011DB7216347E0004B5088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49011DB5216347E0004B5088 /* LaunchScreen.storyboard */; };
+		49011DC2216347E0004B5088 /* contours_detectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49011DC1216347E0004B5088 /* contours_detectorTests.swift */; };
+		49011DCD216347E0004B5088 /* contours_detectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49011DCC216347E0004B5088 /* contours_detectorUITests.swift */; };
+		49011DE321634808004B5088 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49011DE221634808004B5088 /* OpenCVWrapper.mm */; };
+		49011DE421634808004B5088 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49011DE221634808004B5088 /* OpenCVWrapper.mm */; };
+		49011DE521634808004B5088 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49011DE221634808004B5088 /* OpenCVWrapper.mm */; };
+		49F1C6442168759C0033C81A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1C6432168759C0033C81A /* opencv2.framework */; };
+		49F1C6452168759C0033C81A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1C6432168759C0033C81A /* opencv2.framework */; };
+		49F1C6462168759C0033C81A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1C6432168759C0033C81A /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49011DBE216347E0004B5088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49011DA1216347DF004B5088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49011DA8216347DF004B5088;
+			remoteInfo = contours_detector;
+		};
+		49011DC9216347E0004B5088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49011DA1216347DF004B5088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49011DA8216347DF004B5088;
+			remoteInfo = contours_detector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49011DA9216347DF004B5088 /* contours_detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contours_detector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49011DAC216347DF004B5088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49011DAE216347DF004B5088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49011DB1216347DF004B5088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49011DB3216347E0004B5088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49011DB6216347E0004B5088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49011DB8216347E0004B5088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49011DBD216347E0004B5088 /* contours_detectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contours_detectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49011DC1216347E0004B5088 /* contours_detectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contours_detectorTests.swift; sourceTree = "<group>"; };
+		49011DC3216347E0004B5088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49011DC8216347E0004B5088 /* contours_detectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contours_detectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49011DCC216347E0004B5088 /* contours_detectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contours_detectorUITests.swift; sourceTree = "<group>"; };
+		49011DCE216347E0004B5088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49011DDE21634808004B5088 /* contours_detector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contours_detector-Bridging-Header.h"; sourceTree = "<group>"; };
+		49011DDF21634808004B5088 /* contours_detectorTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contours_detectorTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		49011DE021634808004B5088 /* contours_detectorUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contours_detectorUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		49011DE121634808004B5088 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		49011DE221634808004B5088 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		49F1C6432168759C0033C81A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49011DA6216347DF004B5088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1C6442168759C0033C81A /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49011DBA216347E0004B5088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1C6452168759C0033C81A /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49011DC5216347E0004B5088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F1C6462168759C0033C81A /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49011DA0216347DF004B5088 = {
+			isa = PBXGroup;
+			children = (
+				49011DAB216347DF004B5088 /* contours_detector */,
+				49011DC0216347E0004B5088 /* contours_detectorTests */,
+				49011DCB216347E0004B5088 /* contours_detectorUITests */,
+				49011DAA216347DF004B5088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49011DAA216347DF004B5088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49011DA9216347DF004B5088 /* contours_detector.app */,
+				49011DBD216347E0004B5088 /* contours_detectorTests.xctest */,
+				49011DC8216347E0004B5088 /* contours_detectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49011DAB216347DF004B5088 /* contours_detector */ = {
+			isa = PBXGroup;
+			children = (
+				49F1C6432168759C0033C81A /* opencv2.framework */,
+				49011DAC216347DF004B5088 /* AppDelegate.swift */,
+				49011DAE216347DF004B5088 /* ViewController.swift */,
+				49011DB0216347DF004B5088 /* Main.storyboard */,
+				49011DB3216347E0004B5088 /* Assets.xcassets */,
+				49011DB5216347E0004B5088 /* LaunchScreen.storyboard */,
+				49011DB8216347E0004B5088 /* Info.plist */,
+				49011DE121634808004B5088 /* OpenCVWrapper.h */,
+				49011DE221634808004B5088 /* OpenCVWrapper.mm */,
+				49011DDE21634808004B5088 /* contours_detector-Bridging-Header.h */,
+				49011DDF21634808004B5088 /* contours_detectorTests-Bridging-Header.h */,
+				49011DE021634808004B5088 /* contours_detectorUITests-Bridging-Header.h */,
+			);
+			path = contours_detector;
+			sourceTree = "<group>";
+		};
+		49011DC0216347E0004B5088 /* contours_detectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				49011DC1216347E0004B5088 /* contours_detectorTests.swift */,
+				49011DC3216347E0004B5088 /* Info.plist */,
+			);
+			path = contours_detectorTests;
+			sourceTree = "<group>";
+		};
+		49011DCB216347E0004B5088 /* contours_detectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49011DCC216347E0004B5088 /* contours_detectorUITests.swift */,
+				49011DCE216347E0004B5088 /* Info.plist */,
+			);
+			path = contours_detectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49011DA8216347DF004B5088 /* contours_detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49011DD1216347E0004B5088 /* Build configuration list for PBXNativeTarget "contours_detector" */;
+			buildPhases = (
+				49011DA5216347DF004B5088 /* Sources */,
+				49011DA6216347DF004B5088 /* Frameworks */,
+				49011DA7216347DF004B5088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = contours_detector;
+			productName = contours_detector;
+			productReference = 49011DA9216347DF004B5088 /* contours_detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49011DBC216347E0004B5088 /* contours_detectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49011DD4216347E0004B5088 /* Build configuration list for PBXNativeTarget "contours_detectorTests" */;
+			buildPhases = (
+				49011DB9216347E0004B5088 /* Sources */,
+				49011DBA216347E0004B5088 /* Frameworks */,
+				49011DBB216347E0004B5088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49011DBF216347E0004B5088 /* PBXTargetDependency */,
+			);
+			name = contours_detectorTests;
+			productName = contours_detectorTests;
+			productReference = 49011DBD216347E0004B5088 /* contours_detectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49011DC7216347E0004B5088 /* contours_detectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49011DD7216347E0004B5088 /* Build configuration list for PBXNativeTarget "contours_detectorUITests" */;
+			buildPhases = (
+				49011DC4216347E0004B5088 /* Sources */,
+				49011DC5216347E0004B5088 /* Frameworks */,
+				49011DC6216347E0004B5088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49011DCA216347E0004B5088 /* PBXTargetDependency */,
+			);
+			name = contours_detectorUITests;
+			productName = contours_detectorUITests;
+			productReference = 49011DC8216347E0004B5088 /* contours_detectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49011DA1216347DF004B5088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Prokuma;
+				TargetAttributes = {
+					49011DA8216347DF004B5088 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					49011DBC216347E0004B5088 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						TestTargetID = 49011DA8216347DF004B5088;
+					};
+					49011DC7216347E0004B5088 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						TestTargetID = 49011DA8216347DF004B5088;
+					};
+				};
+			};
+			buildConfigurationList = 49011DA4216347DF004B5088 /* Build configuration list for PBXProject "contours_detector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49011DA0216347DF004B5088;
+			productRefGroup = 49011DAA216347DF004B5088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49011DA8216347DF004B5088 /* contours_detector */,
+				49011DBC216347E0004B5088 /* contours_detectorTests */,
+				49011DC7216347E0004B5088 /* contours_detectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49011DA7216347DF004B5088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49011DB7216347E0004B5088 /* LaunchScreen.storyboard in Resources */,
+				49011DB4216347E0004B5088 /* Assets.xcassets in Resources */,
+				49011DB2216347DF004B5088 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49011DBB216347E0004B5088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49011DC6216347E0004B5088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49011DA5216347DF004B5088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49011DAF216347DF004B5088 /* ViewController.swift in Sources */,
+				49011DAD216347DF004B5088 /* AppDelegate.swift in Sources */,
+				49011DE321634808004B5088 /* OpenCVWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49011DB9216347E0004B5088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49011DE421634808004B5088 /* OpenCVWrapper.mm in Sources */,
+				49011DC2216347E0004B5088 /* contours_detectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49011DC4216347E0004B5088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49011DE521634808004B5088 /* OpenCVWrapper.mm in Sources */,
+				49011DCD216347E0004B5088 /* contours_detectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49011DBF216347E0004B5088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49011DA8216347DF004B5088 /* contours_detector */;
+			targetProxy = 49011DBE216347E0004B5088 /* PBXContainerItemProxy */;
+		};
+		49011DCA216347E0004B5088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49011DA8216347DF004B5088 /* contours_detector */;
+			targetProxy = 49011DC9216347E0004B5088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49011DB0216347DF004B5088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49011DB1216347DF004B5088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49011DB5216347E0004B5088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49011DB6216347E0004B5088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49011DCF216347E0004B5088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49011DD0216347E0004B5088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49011DD2216347E0004B5088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 894V8PRHBM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contours_detector",
+				);
+				INFOPLIST_FILE = contours_detector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.prokuma.contours-detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "contours_detector/contours_detector-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49011DD3216347E0004B5088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 894V8PRHBM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contours_detector",
+				);
+				INFOPLIST_FILE = contours_detector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.prokuma.contours-detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "contours_detector/contours_detector-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49011DD5216347E0004B5088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contours_detector",
+				);
+				INFOPLIST_FILE = contours_detectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.prokuma.contours-detectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "contours_detector/contours_detectorTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contours_detector.app/contours_detector";
+			};
+			name = Debug;
+		};
+		49011DD6216347E0004B5088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contours_detector",
+				);
+				INFOPLIST_FILE = contours_detectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.prokuma.contours-detectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "contours_detector/contours_detectorTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/contours_detector.app/contours_detector";
+			};
+			name = Release;
+		};
+		49011DD8216347E0004B5088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contours_detector",
+				);
+				INFOPLIST_FILE = contours_detectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.prokuma.contours-detectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "contours_detector/contours_detectorUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = contours_detector;
+			};
+			name = Debug;
+		};
+		49011DD9216347E0004B5088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contours_detector",
+				);
+				INFOPLIST_FILE = contours_detectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.prokuma.contours-detectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "contours_detector/contours_detectorUITests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = contours_detector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49011DA4216347DF004B5088 /* Build configuration list for PBXProject "contours_detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49011DCF216347E0004B5088 /* Debug */,
+				49011DD0216347E0004B5088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49011DD1216347E0004B5088 /* Build configuration list for PBXNativeTarget "contours_detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49011DD2216347E0004B5088 /* Debug */,
+				49011DD3216347E0004B5088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49011DD4216347E0004B5088 /* Build configuration list for PBXNativeTarget "contours_detectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49011DD5216347E0004B5088 /* Debug */,
+				49011DD6216347E0004B5088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49011DD7216347E0004B5088 /* Build configuration list for PBXNativeTarget "contours_detectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49011DD8216347E0004B5088 /* Debug */,
+				49011DD9216347E0004B5088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49011DA1216347DF004B5088 /* Project object */;
+}
